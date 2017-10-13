@@ -1,0 +1,4 @@
+This exists because sometimes passing -m32 just doesn't work.
+
+You should probably add these to the *end* of your PATH, since if
+you have a real binary it is probably more correct than this one.
