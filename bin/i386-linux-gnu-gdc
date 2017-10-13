@@ -1,0 +1,3 @@
+#!/bin/sh
+# tool "gdc" is believed to be safe
+exec x86_64-linux-gnu-gdc -m32 "$@"

@@ -1,0 +1,3 @@
+#!/bin/sh
+# tool "nm" is believed to be safe
+exec x86_64-linux-gnu-gcc-nm  "$@"

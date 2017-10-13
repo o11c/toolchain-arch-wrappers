@@ -1,0 +1,3 @@
+#!/bin/sh
+# tool "cpp" is believed to be safe
+exec x86_64-linux-gnu-cpp -mx32 "$@"

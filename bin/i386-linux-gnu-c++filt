@@ -1,0 +1,3 @@
+#!/bin/sh
+# tool "c++filt" is believed to be safe
+exec x86_64-linux-gnu-c++filt  "$@"

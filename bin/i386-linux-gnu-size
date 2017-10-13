@@ -1,0 +1,3 @@
+#!/bin/sh
+# tool "size" is believed to be safe
+exec x86_64-linux-gnu-size  "$@"

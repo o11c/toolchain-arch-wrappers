@@ -1,0 +1,3 @@
+#!/bin/sh
+echo 'Warning: untested tool "gnatmake". Please report your results to https://github.com/o11c/toolchain-arch-wrappers' >&2
+exec x86_64-linux-gnu-gnatmake  "$@"
